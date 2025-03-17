@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Info</title>
+    <link rel="stylesheet" href="/css/edit.css">
+</head>
+<body>
+    <h2>You are about to edit this user &nbsp; <%= data.email %> :)</h2>
+    <form action="/user/<%= data.id %>?_method=PATCH" method="post"">
+        <textarea name="username"><%= data.username %></textarea>
+        <input type="password" name="password" placeholder="Enter password">
+        <button>Submit</button>
+    </form>
+    <button onclick="window.location.href='http://localhost:8080/user';">Go To Users</button>
+</body>
+</html>

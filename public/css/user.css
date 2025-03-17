@@ -1,0 +1,66 @@
+h1 {
+    color: #1abc9c; /* Light Greenish Blue */
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #ffefd5; /* Light Peach */
+    color: #2f4f4f; /* Dark Slate Gray */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ffa07a; /* Light Salmon */
+}
+
+th {
+    background-color: #ff6347; /* Tomato */
+    color: #ffffff; /* White */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #98fb98; /* Pale Green */
+    color: #00008b; /* Dark Blue */
+}
+
+tr:nth-child(odd) {
+    background-color: #add8e6; /* Light Blue */
+    color: #8b0000; /* Dark Red */
+}
+
+tr:hover {
+    background-color: #ffd700; /* Gold */
+    color: #4b0082; /* Indigo */
+    transition: background-color 0.3s ease;
+}
+
+button,a{
+    background-color: #1abc9c; /* Light Greenish Blue */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+button:hover, a:hover{
+    background-color: #16a085; /* Dark Greenish Blue */
+    transform: translateY(-2px);
+}
+
