@@ -22,28 +22,4 @@ The **User Management App** is a web application designed to manage user data ef
 **Backend:**
 - Node.js  
 - Express.js  
-- MongoDB  
-
----
-
-## 📂 Folder Structure
-```plaintext
-User-Management-App/
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-├── frontend/
-│   ├── public/
-│   ├── src/
-│       ├── components/
-│       ├── pages/
-│       ├── store/
-│       ├── App.js
-│       ├── index.js
-├── .env
-├── .gitignore
-├── package.json
-├── README.md
+- Mysql
